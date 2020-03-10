@@ -1,0 +1,102 @@
+body{
+	background-color: '#212121';
+}
+#play{
+	background: linear-gradient(to top, #ffcccc 0%, #6600ff 100%);
+	animation-name: play;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes play{
+	0%{
+		background: rgb(238,174,202);
+		background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+	25%{
+		background: rgb(238,174,202);
+		background: linear-gradient(162deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+	50%{
+		background: rgb(238,174,202);
+		background: linear-gradient(259deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+	75%{
+		background: rgb(238,174,202);
+		background: linear-gradient(100deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+	100%{
+		background: rgb(238,174,202);
+		background: linear-gradient(59deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+
+}
+#pause{
+	animation-name: pause;
+	animation-duration: 4s;	
+	animation-iteration-count: infinite;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+@keyframes pause{
+	0%{
+		background: rgb(238,174,202);
+		background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+	25%{
+		background: rgb(238,174,202);
+		background: linear-gradient(162deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+	50%{
+		background: rgb(238,174,202);
+		background: linear-gradient(259deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+	75%{
+		background: rgb(238,174,202);
+		background: linear-gradient(100deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+	100%{
+		background: rgb(238,174,202);
+		background: linear-gradient(59deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	}
+
+}
+#player{
+	margin: 5em;
+	align-items: center;
+}
+#title{
+	font-family: Caveat-Regular;
+	font-size: 2em;
+}
+.card{
+	padding:  3em;
+	box-shadow:  10px 5px 5px grey;
+}
+
+@font-face {
+	font-family: Caveat-Regular;
+	src: url("../fonts/Caveat/Caveat-Regular.ttf");
+}
+
+@font-face {
+	font-family: Caveat-Bold;
+	src: url("../fonts/Caveat/Caveat-Bold.ttf");
+}
+
+@font-face {
+	font-family: PermanentMarker;
+	src: url("../fonts/Permanent_Marker/PermanentMarker-Regular.ttf");
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  margin: 1em;
+  left: 50%;
+
+  
+}

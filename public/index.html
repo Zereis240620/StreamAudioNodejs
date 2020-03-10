@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Exemplo Striming Audio</title>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	
+	<nav class="nav-bar grey darken-3">
+		<div class="brand-logo center">    		
+			<small id="title">Transmissão de Audio <i class="fa fa-headphones" aria-hidden="true"></i></small>
+		</div>
+
+		<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<li><a href="player2.html"><i class="fa fa-headphones" aria-hidden="true"></i> Exemplo Do Player 2</a></li>
+		</ul>
+		
+	</nav>
+
+	
+	<div id="player" class="card grey darken-3">
+		<div class="center-align">
+			<div id="waveform" style="height: 50%">
+				<button class="btn-floating btn-large waves-effect waves-light" id="play"><i class="fa fa-play-circle" aria-hidden="true"></i></button>
+				<button class="btn-floating btn-large waves-effect waves-light" id="pause"><i class="fa fa-pause-circle" aria-hidden="true"></i></button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script src="https://unpkg.com/wavesurfer.js"></script>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
